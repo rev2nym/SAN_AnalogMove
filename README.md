@@ -7,7 +7,14 @@
 
 ## アナログスティック入力
 プラグイン「アナログスティック(SAN_AnalogStick.js)」を導入すれば
-アナログスティックによる任意方向への移動や速度調節が可能です。  
+アナログスティックによる任意方向への移動や速度調節が可能です。 
+次のリンクから入手してください。  
+https://github.com/rev2nym/SAN_AnalogStick
+
+## サンプルプロジェクト
+次のダウンロードリンクからzipファイルをダウンロードして展開後に
+新規プロジェクトに上書き保存してください。  
+https://github.com/rev2nym/SAN_AnalogMove/archive/master.zip
 
 ## デモ
 - YouTube リンク  
