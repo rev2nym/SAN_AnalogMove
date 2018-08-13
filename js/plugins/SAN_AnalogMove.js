@@ -1657,6 +1657,16 @@ Game_Follower.prototype.shouleMoveDefault = function() {
     return this._moveDefault;
 };
 
+// フレーム更新
+var _Game_Follower_update =
+    Game_Follower.prototype.update;
+Game_Follower.prototype.update = function() {
+    _Game_Follower_update.call(this);
+    if (this.shouleMoveDefault()) {
+        this.checkMoveDefault();
+    }
+};
+
 // 移動の更新
 var _Game_Follower_updateMove =
     Game_Follower.prototype.updateMove;
