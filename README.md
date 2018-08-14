@@ -5,8 +5,12 @@
 パーティキャラクターの移動をタイルによらないドット移動に変更します。
 方向キー操作、タッチ操作に対応しています。  
 
+## 使い方
+次のリンク先のファイルを保存してプラグインとして適用してください。
+https://raw.githubusercontent.com/rev2nym/SAN_AnalogMove/master/js/plugins/SAN_AnalogMove.js
+
 ## アナログスティック入力
-プラグイン「アナログスティック(SAN_AnalogStick.js)」を導入すれば
+プラグイン「アナログスティック（SAN_AnalogStick）」を導入すれば
 アナログスティックによる任意方向への移動や速度調節が可能です。 
 次のリンクから入手してください。  
 https://github.com/rev2nym/SAN_AnalogStick
