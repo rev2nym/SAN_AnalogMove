@@ -7,7 +7,7 @@
 //=============================================================================
 
 /*:
- * @plugindesc アナログムーブ 3.1.4
+ * @plugindesc アナログムーブ 3.1.5
  * パーティキャラクターの移動をドット移動に変更します。
  * @author サンシロ https://twitter.com/rev2nym
  * 
@@ -33,7 +33,7 @@ Imported.SAN_AnalogMove = true;
 
 var Sanshiro = Sanshiro || {};
 Sanshiro.AnalogMove = Sanshiro.AnalogMove || {};
-Sanshiro.AnalogMove.version = '3.1.4';
+Sanshiro.AnalogMove.version = '3.1.5';
 
 (function() {
 'use strict';
@@ -506,6 +506,7 @@ CharacterMover.prototype.splitedVelocityVectors = function() {
 CharacterMover.prototype.checkColliding = function() {
     this.checkCollidingTile();
     this.checkCollidingCharacter();
+    this.checkCollidingTile();
 };
 
 // 衝突キャラクター
