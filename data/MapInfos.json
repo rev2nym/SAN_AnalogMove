@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":true,"name":"エントリー","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":true,"name":"プレイヤー挙動テスト","order":2,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":2,"expanded":true,"name":"プレイヤー挙動テスト","order":2,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":3,"expanded":false,"name":"イベント起動テスト","order":3,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":4,"expanded":false,"name":"ステップ挙動テスト","order":4,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":5,"expanded":false,"name":"スクロール挙動テスト","order":5,"parentId":0,"scrollX":819,"scrollY":461},
